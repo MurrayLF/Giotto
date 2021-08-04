@@ -1,0 +1,99 @@
+Package: Giotto
+Title: Spatial Single-Cell Transcriptomics Toolbox
+Version: 2.0.0.9037
+Authors@R: c(
+	person("Ruben", "Dries", email = "rubendries@gmail.com",
+		 role = c("aut", "cre")),
+	person("Jiaji", "George Chen", email = "jiajic@bu.edu",
+		 role = c("aut")),
+	person("Natalie", "Del Rossi", email = "natalie.delrossi@mssm.edu",
+		 role = c("aut")),
+	person("Qian", "Zhu", email = "zqian@jimmy.harvard.edu",
+		 role = c("aut")),
+	person("Guo-Cheng", "Yuan", email = "guo-cheng.yuan@mssm.edu",
+		 role = c("aut"))
+	)
+Maintainer: Ruben Dries <rubendries@gmail.com>
+Description: Toolbox to process, analyze and visualize spatial single-cell expression data.
+License: MIT | file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://rubd.github.io/Giotto/, https://github.com/RubD/Giotto
+BugReports: https://github.com/RubD/Giotto/issues
+RoxygenNote: 7.1.1
+Depends:
+    base (>= 3.5.0),
+    utils (>= 3.5.0),
+    R (>= 3.5.0)
+Imports:
+    BiocSingular,
+    ClusterR,
+    ComplexHeatmap (>= 1.20.0),
+    cowplot (>= 0.9.4),
+    data.table (>= 1.12.2),
+    dbscan (>= 1.1-3),
+    DelayedArray,
+    DelayedMatrixStats,
+    deldir,
+    farver (>= 2.0.3),
+    fitdistrplus,
+    future,
+    future.apply,
+    ggplot2 (>= 3.1.1),
+    ggraph,
+    ggrepel,
+    grDevices,
+    graphics,
+    HDF5Array (>= 1.18.1),
+    igraph (>= 1.2.4.1),
+    irlba,
+    lfa (>= 1.12.0),
+    limma,
+    Matrix,
+    magick,
+    magrittr,
+    matrixStats (>= 0.55.0),
+    methods,
+    plotly,
+    parallel,
+    qvalue (>= 2.14.1),
+    RColorBrewer (>= 1.1-2),
+    Rcpp,
+    reshape2,
+    reticulate (>= 1.14),
+    Rtsne (>= 0.15),
+    rlang (>= 0.4.3),
+    R.utils,
+    scales (>= 1.0.0),
+    terra (>= 1.1.4),
+    uwot (>= 0.0.0.9010)
+Suggests:
+    Biobase,
+    biomaRt,
+    circlize,
+    dendextend (>= 1.13.0),
+    FactoMineR,
+    factoextra,
+    geometry,
+    ggalluvial,
+    ggdendro,
+    ggforce,
+    hdf5r,
+    htmlwidgets,
+    jackstraw,
+    knitr,
+    MAST,
+    multinet (>= 3.0.2),
+    png,
+    quadprog,
+    rmarkdown,
+    RTriangle (>= 1.6-0.10),
+    scattermore,
+    scran (>= 1.10.1),
+    SingleCellExperiment,
+    smfishHmrf,
+    SPARK,
+    tiff,
+    trendsceek
+biocViews:
+VignetteBuilder: knitr
